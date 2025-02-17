@@ -13,6 +13,10 @@ After installing [Foundry](https://book.getfoundry.sh/getting-started/installati
 
 Compile everything with `forge build`
 
+# Additional Contracts
+
+Some challenges will require you to write a new contract to help with your attack (e.g. Telephone). Write these additional contracts in `src/attacks/<Challenge Name>Attack.sol`.
+
 # Testing
 
 >Note on tests: Code contains additional sanity-check type of tests which you are not supposed to interact with so that is why I suggest using the `--mt testSolve` option.
